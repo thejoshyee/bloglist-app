@@ -1,0 +1,37 @@
+{
+    "name": "blog-list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node index.js",
+        "dev": "cross-env NODE_ENV=development nodemon index.js",
+        "build:ui": "rm -rf build && cd ../fullstackopen-2022/notes-app && npm run build && cp -r build ../../fso-notes-app-backend",
+        "deploy": "git push heroku main",
+        "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",
+        "logs:prod": "heroku logs --tail",
+        "lint": "eslint .",
+        "test": "cross-env NODE_ENV=test jest --verbose --runInBand --forceExit",
+        "start:test": "cross-env NODE_ENV=test node index.js"
+    },
+    "author": "josh yee",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.11.0",
+        "jest": "^27.5.1",
+        "nodemon": "^2.0.15",
+        "supertest": "^6.2.2"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.6"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}

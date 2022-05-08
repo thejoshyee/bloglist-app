@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvc2h5ZWUiLCJpZCI6IjYyNjRkNDk1MGIxMDYzMDY3ODhiODMxNiIsImlhdCI6MTY1MTg4MTA5NH0.BlA9RwhasogjZWyeFv1gDQnZ3kFWsqIA5_znclWD0PY
+
+ 
+{
+    "title": "How to do art stuff 5",
+    "author": "Josh Yee",
+    "url": "www.google.com",
+    "likes": 3
+}
+
