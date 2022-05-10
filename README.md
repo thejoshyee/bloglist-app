@@ -14,9 +14,7 @@ A full stack application using MongoDB, Express, React, and Node (MERN). The app
 
 ## Preview
 <img src="https://github.com/thejoshyee/bloglist-app/blob/main/preview-files/bloglist-login.png?raw=true" width="50%" />
-<img src="https://github.com/thejoshyee/bloglist-app/blob/main/preview-files/bloglist-blogview.png?raw=true" width="50%" />
-<img src="https://github.com/thejoshyee/bloglist-app/blob/main/preview-files/bloglist-blogs2.png?raw=true" width="50%" />
-<img src="https://github.com/thejoshyee/bloglist-app/blob/main/preview-files/bloglist-blogs.png?raw=true" width="50%" />
+
 
 
 
