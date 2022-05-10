@@ -9,6 +9,8 @@ A full stack application using MongoDB, Express, React, and Node (MERN). The app
 - React
 - Node
 
+## Live Demo
+<a href="https://shielded-escarpment-30877.herokuapp.com/">The Blog List</a>
 
 ## Preview
 <img src="https://github.com/thejoshyee/bloglist-app/blob/main/preview-files/bloglist-login.png?raw=true" width="50%" />
@@ -17,6 +19,4 @@ A full stack application using MongoDB, Express, React, and Node (MERN). The app
 <img src="https://github.com/thejoshyee/bloglist-app/blob/main/preview-files/bloglist-blogs.png?raw=true" width="50%" />
 
 
-## Live Demo
-<a href="https://shielded-escarpment-30877.herokuapp.com/">The Blog Listp</a>
 
